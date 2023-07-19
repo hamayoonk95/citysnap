@@ -1,0 +1,61 @@
+.weather_card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    border-radius: 25px;
+}
+
+.weather-data {
+}
+
+.weather-temps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.clear {
+    background: linear-gradient(to bottom, #3fd9fb, #86a8e7);
+}
+
+.clouds {
+    background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+}
+
+.rain {
+    background: linear-gradient(to bottom, #4ca1af, #c4e0e5);
+}
+
+.drizzle {
+    background: linear-gradient(to bottom, #8e9eab, #eef2f3);
+}
+
+.thunderstorm {
+    background: linear-gradient(to bottom, #232526, #414345);
+}
+
+.snow {
+    background: linear-gradient(to bottom, #ffffff, #e6e9f0);
+}
+
+.atmosphere {
+    background: linear-gradient(to bottom, #1c2b2d, #505962);
+}
+
+.mist {
+    background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+}
+
+.haze {
+    background: linear-gradient(to bottom, #b8b894, #f0f0c5);
+}
